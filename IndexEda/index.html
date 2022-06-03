@@ -9,12 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="owl.carousel.min.css">
     <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link rel="stylesheet" href="styles.css">
 
     <script src="jquery.js" defer></script>
-    <script src="owl.carousel.js" defer></script>
+    <script src="owl.carousel.min.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -39,9 +40,16 @@
         </div>
 
     </header>
-    <section class="slider">
+    <section class="slider owl-carousel">
+
         <div class="slider-item slider-bg1 ">
             <h1>Неделя летних овощей</h1>
+            <h2>Специальная овощная корзина. Новые продукты,специальные цены, скидки!</h2>
+            <button class="slider-btn">Заказать со скидкой</button>
+        </div>
+
+        <div class="slider-item slider-bg3 ">
+            <h1>Неделя осенних овощей</h1>
             <h2>Специальная овощная корзина. Новые продукты,специальные цены, скидки!</h2>
             <button class="slider-btn">Заказать со скидкой</button>
         </div>
@@ -52,15 +60,79 @@
             <button class="slider-btn">Заказать со скидкой</button>
         </div>
 
-        <div class="slider-item slider-bg3 ">
-            <h1>Неделя осенних овощей</h1>
-            <h2>Специальная овощная корзина. Новые продукты,специальные цены, скидки!</h2>
-            <button class="slider-btn">Заказать со скидкой</button>
+    </section>
+    <section class="bonus">
+        <div class="bonus-item bonus-bg1">
+            <h3>Сладкая корзина</h3>
+            <p>Произвольный выбор десертов по Вашему желанию.</p>
+            <p class="price"><span>ОТ 1 300 ₽</span></p>
+            <p>стоимость доставки до 200 ₽</p>
+            <button class="bonus-btn">Собрать корзину</button>
+        </div>
+
+        <div class="bonus-item bonus-bg2">
+            <h3>Минимум усилий</h3>
+            <p>Произвольный выбор продуктов по Вашему желанию.</p>
+            <p class="price"><span>ОТ 700 ₽</span></p>
+            <p>стоимость доставки до 200 ₽</p>
+            <button class="bonus-btn">Собрать корзину</button>
+        </div>
+
+    </section>
+    <section class="deliveri">
+        <h2>Доставка готовой еды на неделю</h2>
+        <div class="gallery">
+        <figure>
+            <img src="images/deliveri_1.png" alt="ЗОЖ">
+            <figcaption>ЗОЖ</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/deliveri_2.png" alt="Овощное">
+            <figcaption>Овощное</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/deliveri_3.png" alt="Мясное">
+            <figcaption>Мясное</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/deliveri_4.png" alt="Птица">
+            <figcaption>Птица</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/deliveri_5.png" alt="Рыбное">
+            <figcaption>Рыбное</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/deliveri_6.png" alt="Детское">
+            <figcaption>Детское</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/deliveri_7.png" alt="Родителям">
+            <figcaption>Родителям</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/deliveri_8.png" alt="Праздничное">
+            <figcaption>Праздничное</figcaption>
+        </figure>
         </div>
     </section>
-    <section class="bonus"></section>
-    <sectipn class="deliveri"></sectipn>
-    <section class="catalog"></section>
+    <section class="catalog">
+        <section class="categories">
+            <h2>Категории блюд</h2>
+            <ul>
+                <li><a href="#">Популярные блюда</a></li>
+                <li><a href="#">Овощное</a></li>
+                <li><a href="#">Мясное</a></li>
+            </ul>
+        </section>
+    </section>
     <section class="benefits"></section>
     <footer></footer>
 </body>
