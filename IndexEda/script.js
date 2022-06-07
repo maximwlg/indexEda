@@ -8,4 +8,5 @@
         autoplay: true,
         smartSpeed: 500
     });
+    $('#tabset').tabs();
   });
