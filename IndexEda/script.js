@@ -1,5 +1,4 @@
-
-  $(document).ready(function() {
+$(document).ready(function() {
     $('.owl-carousel').owlCarousel({
         items: 1,
         loop: true,
@@ -9,4 +8,4 @@
         smartSpeed: 500
     });
     $('#tabset').tabs();
-  });
+});
